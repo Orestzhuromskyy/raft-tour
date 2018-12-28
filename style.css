@@ -1,0 +1,234 @@
+html{
+	background-image: url(bg.jpg) ;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+#logo{
+	max-width:85px;
+	max-height: 85px;
+}
+
+.logo-skit{
+	padding-top: 49px;
+	padding-left: 41px;
+}
+/*Текст заголовків і стилі*/
+#title{
+	color: black;
+	font-size: 3em;
+
+}
+
+#under-title{
+	font-size: 3em;
+	padding-left: 1.7em;
+
+}
+.conteiner{
+	display: flex;
+	flex-direction: column;
+}
+
+.center-title{
+	padding-top:35px;
+	padding-left: 167px;
+	line-height: 0em;
+}
+
+.content{	
+	line-height: 2em;
+}
+
+#rafting-tour{
+	margin-top: -15px;
+	padding-left: 5.2em;
+	font-style: oblique;
+	font-size: 1em;
+}
+   /*Пошта стилі і текст*/
+.email-information{
+	display: flex;
+	padding-top: 3em;
+	padding-left: 7em;
+}
+
+.square {
+	width: 40px;
+	height: 40px;
+	background: #8e5d34;
+}
+  #arrow-right-2{
+    padding-left:10px;
+    fill: #fff;
+  }
+
+#email{
+	border: none;
+	border-bottom: 3px solid #8e5d34;
+	width: 200px;
+	font-size: 1em;
+}
+
+.feedback-text{
+	padding-top: 2em;
+	padding-left: 7em;
+	line-height: 0.5em;
+}
+
+#feedback{
+	font-style: oblique;
+	font-size: 0.7em;
+}
+   /*футер(контакти) і стилі*/
+.conteiner-footer{
+	padding-left: 16.8em;		
+}
+
+.contact{
+	display: flex;	
+}
+
+#name-contact{
+	color :#a1a1a1;
+	text-decoration: none;
+	font-family: 'Arvo', serif;
+	font-size: 10px;
+}
+
+#contact-logo{
+	height:10px;
+	width:10px;
+	padding-right: 0.3em;
+
+}
+
+#feedback-contact{
+	padding-left: 0.7em;
+}
+@media only screen and (max-width: 1024px) {
+	body {
+    	margin: 0;
+	}
+
+  .logo-skit {
+	    padding-top: 30px;
+	    padding-left: 25px;
+	}
+
+	.center-title {
+	    padding-top: 10px;
+	    padding-left: 80px;
+	    line-height: 0em;
+	}
+
+	.conteiner-footer {
+	    padding-left: 11.3em;
+	    margin: 0;
+	}
+
+	.content {
+	    line-height: 1.5em;
+	}
+
+	.email-information {
+	    display: flex;
+	    padding-top: 2.5em;
+	    padding-left: 7em;
+	}
+	.feedback-text {
+	    padding-top: 1.5em;
+	    padding-left: 7em;
+	    line-height: 0.5em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	html{
+		background-image: url(bg.jpg) ;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+
+	#logo{
+		max-width:50px;
+		max-height: 50px;
+	}
+
+	.logo-skit{
+		padding-top: 30px;
+		padding-left: 25px;
+	}
+/*Текст заголовків і стилі*/
+	#title{
+		color: black;
+		font-size: 2em;
+	}
+
+	#under-title{
+		font-size: 2em;
+		padding-left: 1.7em;
+	}
+	.conteiner{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.center-title{
+		padding-top:25px;
+		padding-left: 30px;
+		line-height: 0em;
+	}
+
+	.content{	
+		line-height: 1em;
+	}
+
+	#rafting-tour{
+		margin-top: -5px;
+		padding-left: 5.2em;
+		font-style: oblique;
+		font-size: 1em;
+	}
+   /*Пошта стилі і текст*/
+	.email-information{
+		display: flex;
+		padding-top: 3em;
+		padding-left: 3em;
+	}
+
+	#email{
+		border: none;
+		border-bottom: 3px solid #8e5d34;
+		width: 150px;
+		font-size: 1em;
+	}
+
+	.feedback-text{
+		padding-top: 1.5em;
+		padding-left: 3em;
+		line-height: 0.5em;
+	}
+
+   /*футер(контакти) і стилі*/
+	.conteiner-footer{
+		padding-left: 4em;		
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	html{
+		background-image: url(mobile_bg.jpg) ;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+}
+
+
+
